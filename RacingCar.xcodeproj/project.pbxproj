@@ -7,14 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380040431CCFBD7F00F18084 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380040421CCFBD7F00F18084 /* Joystick.swift */; };
+		380040461CCFC21B00F18084 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380040451CCFC21B00F18084 /* CGFloatExtension.swift */; };
+		3877D67E1CA4674A00DDA940 /* CarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877D67D1CA4674A00DDA940 /* CarController.swift */; };
+		38C861ED1CCAA4B900BB4F31 /* JCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C861E81CCAA4B900BB4F31 /* JCButton.m */; };
+		38C861EE1CCAA4B900BB4F31 /* JCImageJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C861EA1CCAA4B900BB4F31 /* JCImageJoystick.m */; };
+		38C861EF1CCAA4B900BB4F31 /* JCJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C861EC1CCAA4B900BB4F31 /* JCJoystick.m */; };
+		38C861F31CCAA51100BB4F31 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C861F21CCAA51100BB4F31 /* JCViewController.m */; };
+		38C861F91CCAA7A000BB4F31 /* JCMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C861F81CCAA7A000BB4F31 /* JCMyScene.m */; };
+		38C861FC1CCAA8B700BB4F31 /* ControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C861FB1CCAA8B700BB4F31 /* ControlScene.swift */; };
+		38C861FF1CCAB12700BB4F31 /* redStick.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C861FD1CCAB12700BB4F31 /* redStick.png */; };
+		38C862001CCAB12700BB4F31 /* stickbase.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C861FE1CCAB12700BB4F31 /* stickbase.png */; };
+		38C862041CCB6B0C00BB4F31 /* Led.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C862031CCB6B0C00BB4F31 /* Led.swift */; };
+		38EC56091C9D399300947DD6 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC56081C9D399300947DD6 /* SocketClient.swift */; };
+		38EC560C1C9DA0E400947DD6 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC560B1C9DA0E400947DD6 /* CommandType.swift */; };
 		38F0C1751C9C081800848D8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0C1741C9C081800848D8E /* AppDelegate.swift */; };
 		38F0C1771C9C081800848D8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0C1761C9C081800848D8E /* ViewController.swift */; };
 		38F0C17A1C9C081800848D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F0C1781C9C081800848D8E /* Main.storyboard */; };
 		38F0C17C1C9C081800848D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F0C17B1C9C081800848D8E /* Assets.xcassets */; };
 		38F0C17F1C9C081800848D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F0C17D1C9C081800848D8E /* LaunchScreen.storyboard */; };
+		A2FB8A2A2CD84AD4EC6085B3 /* Pods_RacingCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F66A5032E5305B28942E5C /* Pods_RacingCar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10F66A5032E5305B28942E5C /* Pods_RacingCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacingCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		380040421CCFBD7F00F18084 /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		380040451CCFC21B00F18084 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		3877D67D1CA4674A00DDA940 /* CarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarController.swift; sourceTree = "<group>"; };
+		38C861E21CCAA43100BB4F31 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		38C861E41CCAA44B00BB4F31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38C861E61CCAA4B800BB4F31 /* RacingCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RacingCar-Bridging-Header.h"; sourceTree = "<group>"; };
+		38C861E71CCAA4B900BB4F31 /* JCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCButton.h; path = JCInput/JCInput/JCButton.h; sourceTree = "<group>"; };
+		38C861E81CCAA4B900BB4F31 /* JCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCButton.m; path = JCInput/JCInput/JCButton.m; sourceTree = "<group>"; };
+		38C861E91CCAA4B900BB4F31 /* JCImageJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCImageJoystick.h; path = JCInput/JCInput/JCImageJoystick.h; sourceTree = "<group>"; };
+		38C861EA1CCAA4B900BB4F31 /* JCImageJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCImageJoystick.m; path = JCInput/JCInput/JCImageJoystick.m; sourceTree = "<group>"; };
+		38C861EB1CCAA4B900BB4F31 /* JCJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCJoystick.h; path = JCInput/JCInput/JCJoystick.h; sourceTree = "<group>"; };
+		38C861EC1CCAA4B900BB4F31 /* JCJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCJoystick.m; path = JCInput/JCInput/JCJoystick.m; sourceTree = "<group>"; };
+		38C861F11CCAA51100BB4F31 /* JCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCViewController.h; path = JCInput/JCInput/JCViewController.h; sourceTree = "<group>"; };
+		38C861F21CCAA51100BB4F31 /* JCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCViewController.m; path = JCInput/JCInput/JCViewController.m; sourceTree = "<group>"; };
+		38C861F71CCAA7A000BB4F31 /* JCMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCMyScene.h; path = JCInput/JCInput/JCMyScene.h; sourceTree = "<group>"; };
+		38C861F81CCAA7A000BB4F31 /* JCMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCMyScene.m; path = JCInput/JCInput/JCMyScene.m; sourceTree = "<group>"; };
+		38C861FB1CCAA8B700BB4F31 /* ControlScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlScene.swift; sourceTree = "<group>"; };
+		38C861FD1CCAB12700BB4F31 /* redStick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redStick.png; path = JCInput/JCInput/redStick.png; sourceTree = "<group>"; };
+		38C861FE1CCAB12700BB4F31 /* stickbase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stickbase.png; path = JCInput/JCInput/stickbase.png; sourceTree = "<group>"; };
+		38C862031CCB6B0C00BB4F31 /* Led.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Led.swift; sourceTree = "<group>"; };
+		38C862051CCBF90500BB4F31 /* CocoaMQTT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaMQTT.framework; path = "Pods/../build/Debug-iphoneos/CocoaMQTT.framework"; sourceTree = "<group>"; };
+		38EC56081C9D399300947DD6 /* SocketClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
+		38EC560B1C9DA0E400947DD6 /* CommandType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
 		38F0C1711C9C081800848D8E /* RacingCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacingCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F0C1741C9C081800848D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38F0C1761C9C081800848D8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +61,8 @@
 		38F0C17B1C9C081800848D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F0C17E1C9C081800848D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F0C1801C9C081800848D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B1D27ED4C01AB63AB28C99 /* Pods-RacingCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacingCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RacingCar/Pods-RacingCar.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE6745D11B43A0EA2C4C542 /* Pods-RacingCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacingCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RacingCar/Pods-RacingCar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +70,119 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FB8A2A2CD84AD4EC6085B3 /* Pods_RacingCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380040441CCFC1FB00F18084 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				380040451CCFC21B00F18084 /* CGFloatExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		38C861F01CCAA4BF00BB4F31 /* JCInput */ = {
+			isa = PBXGroup;
+			children = (
+				38C861FD1CCAB12700BB4F31 /* redStick.png */,
+				38C861FE1CCAB12700BB4F31 /* stickbase.png */,
+				38C861F71CCAA7A000BB4F31 /* JCMyScene.h */,
+				38C861F81CCAA7A000BB4F31 /* JCMyScene.m */,
+				38C861F11CCAA51100BB4F31 /* JCViewController.h */,
+				38C861F21CCAA51100BB4F31 /* JCViewController.m */,
+				38C861E71CCAA4B900BB4F31 /* JCButton.h */,
+				38C861E81CCAA4B900BB4F31 /* JCButton.m */,
+				38C861E91CCAA4B900BB4F31 /* JCImageJoystick.h */,
+				38C861EA1CCAA4B900BB4F31 /* JCImageJoystick.m */,
+				38C861EB1CCAA4B900BB4F31 /* JCJoystick.h */,
+				38C861EC1CCAA4B900BB4F31 /* JCJoystick.m */,
+			);
+			name = JCInput;
+			sourceTree = "<group>";
+		};
+		38C861FA1CCAA88D00BB4F31 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				38C861FB1CCAA8B700BB4F31 /* ControlScene.swift */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		38C862011CCB6AD000BB4F31 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				38C862021CCB6AF900BB4F31 /* Shape */,
+				38C861FA1CCAA88D00BB4F31 /* Scene */,
+			);
+			name = SpriteKit;
+			sourceTree = "<group>";
+		};
+		38C862021CCB6AF900BB4F31 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				38C862031CCB6B0C00BB4F31 /* Led.swift */,
+				380040421CCFBD7F00F18084 /* Joystick.swift */,
+			);
+			name = Shape;
+			sourceTree = "<group>";
+		};
+		38EC56021C9D36A300947DD6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				38EC56041C9D36C300947DD6 /* StoryBoard */,
+				38EC56031C9D36AA00947DD6 /* ViewController */,
+				38C862011CCB6AD000BB4F31 /* SpriteKit */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		38EC56031C9D36AA00947DD6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38F0C1761C9C081800848D8E /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		38EC56041C9D36C300947DD6 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				38F0C1781C9C081800848D8E /* Main.storyboard */,
+				38F0C17D1C9C081800848D8E /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		38EC56051C9D36E500947DD6 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				38EC56081C9D399300947DD6 /* SocketClient.swift */,
+				3877D67D1CA4674A00DDA940 /* CarController.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		38EC560A1C9DA0CF00947DD6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				38EC560B1C9DA0E400947DD6 /* CommandType.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		38F0C1681C9C081800848D8E = {
 			isa = PBXGroup;
 			children = (
+				38C861F01CCAA4BF00BB4F31 /* JCInput */,
 				38F0C1731C9C081800848D8E /* RacingCar */,
 				38F0C1721C9C081800848D8E /* Products */,
+				A2A50B06D625D0BC8CFC41E5 /* Pods */,
+				8E4C0B8A8DE3EFE7BDC52405 /* Frameworks */,
+				38C861E61CCAA4B800BB4F31 /* RacingCar-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +197,35 @@
 		38F0C1731C9C081800848D8E /* RacingCar */ = {
 			isa = PBXGroup;
 			children = (
+				380040441CCFC1FB00F18084 /* Extension */,
 				38F0C1741C9C081800848D8E /* AppDelegate.swift */,
-				38F0C1761C9C081800848D8E /* ViewController.swift */,
-				38F0C1781C9C081800848D8E /* Main.storyboard */,
+				38EC56051C9D36E500947DD6 /* Api */,
+				38EC560A1C9DA0CF00947DD6 /* Data */,
+				38EC56021C9D36A300947DD6 /* UI */,
 				38F0C17B1C9C081800848D8E /* Assets.xcassets */,
-				38F0C17D1C9C081800848D8E /* LaunchScreen.storyboard */,
 				38F0C1801C9C081800848D8E /* Info.plist */,
 			);
 			path = RacingCar;
+			sourceTree = "<group>";
+		};
+		8E4C0B8A8DE3EFE7BDC52405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38C862051CCBF90500BB4F31 /* CocoaMQTT.framework */,
+				38C861E41CCAA44B00BB4F31 /* CoreGraphics.framework */,
+				38C861E21CCAA43100BB4F31 /* SpriteKit.framework */,
+				10F66A5032E5305B28942E5C /* Pods_RacingCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A50B06D625D0BC8CFC41E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60B1D27ED4C01AB63AB28C99 /* Pods-RacingCar.debug.xcconfig */,
+				6FE6745D11B43A0EA2C4C542 /* Pods-RacingCar.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F0C1831C9C081800848D8E /* Build configuration list for PBXNativeTarget "RacingCar" */;
 			buildPhases = (
+				84848331790B0633C9F7FB27 /* Check Pods Manifest.lock */,
 				38F0C16D1C9C081800848D8E /* Sources */,
 				38F0C16E1C9C081800848D8E /* Frameworks */,
 				38F0C16F1C9C081800848D8E /* Resources */,
+				38FAF101E4870275130537D0 /* Embed Pods Frameworks */,
+				0756C06FE2BEC148E99EB557 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +263,7 @@
 				TargetAttributes = {
 					38F0C1701C9C081800848D8E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AH43T437Q8;
 					};
 				};
 			};
@@ -122,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C861FF1CCAB12700BB4F31 /* redStick.png in Resources */,
+				38C862001CCAB12700BB4F31 /* stickbase.png in Resources */,
 				38F0C17F1C9C081800848D8E /* LaunchScreen.storyboard in Resources */,
 				38F0C17C1C9C081800848D8E /* Assets.xcassets in Resources */,
 				38F0C17A1C9C081800848D8E /* Main.storyboard in Resources */,
@@ -130,13 +300,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0756C06FE2BEC148E99EB557 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacingCar/Pods-RacingCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FAF101E4870275130537D0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacingCar/Pods-RacingCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84848331790B0633C9F7FB27 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38F0C16D1C9C081800848D8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38F0C1771C9C081800848D8E /* ViewController.swift in Sources */,
+				38C861F31CCAA51100BB4F31 /* JCViewController.m in Sources */,
+				38EC56091C9D399300947DD6 /* SocketClient.swift in Sources */,
+				38C861F91CCAA7A000BB4F31 /* JCMyScene.m in Sources */,
+				38C861FC1CCAA8B700BB4F31 /* ControlScene.swift in Sources */,
 				38F0C1751C9C081800848D8E /* AppDelegate.swift in Sources */,
+				38EC560C1C9DA0E400947DD6 /* CommandType.swift in Sources */,
+				38C861EE1CCAA4B900BB4F31 /* JCImageJoystick.m in Sources */,
+				38C862041CCB6B0C00BB4F31 /* Led.swift in Sources */,
+				38C861EF1CCAA4B900BB4F31 /* JCJoystick.m in Sources */,
+				380040461CCFC21B00F18084 /* CGFloatExtension.swift in Sources */,
+				3877D67E1CA4674A00DDA940 /* CarController.swift in Sources */,
+				380040431CCFBD7F00F18084 /* Joystick.swift in Sources */,
+				38C861ED1CCAA4B900BB4F31 /* JCButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,23 +475,44 @@
 		};
 		38F0C1841C9C081800848D8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B1D27ED4C01AB63AB28C99 /* Pods-RacingCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_MODULES_AUTOLINK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = RacingCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iot.racing.RacingCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RacingCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		38F0C1851C9C081800848D8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE6745D11B43A0EA2C4C542 /* Pods-RacingCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_MODULES_AUTOLINK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = RacingCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iot.racing.RacingCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RacingCar-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,6 +535,7 @@
 				38F0C1851C9C081800848D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
